@@ -6,8 +6,8 @@ import Head from 'next/head'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Cookiy - Software Company',
-  description: 'Cookiy Company Choose it in your Software System or web applications',
+  title: 'Dr Ahmed Hamdy - Dental Clinic',
+  description: '',
 }
 
 export default function RootLayout({
@@ -19,7 +19,6 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <title>Cookiy - Software Company</title>
-        <meta name='description' content='Cookiy Company Choose it in your Software System or web applications' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <meta name='robots' content='index, follow' />
       </Head>
