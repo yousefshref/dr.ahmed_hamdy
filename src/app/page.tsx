@@ -13,17 +13,17 @@ export default function Home() {
         <div className="images">
           <div className="w-full max-w-[500px] mx-auto shadow-lg rounded-md">
             <Slide duration={2000} arrows={false}>
-              <div className="each-slide-effect">  
-                <Image src={'/bg1.png'} alt="" width={300} height={300} loading="lazy" className="w-full max-w-[500px] mx-auto shadow-lg rounded-md" />
-              </div>
-              <div className="each-slide-effect">
-                <Image src={'/bg2.png'} alt="" width={300} height={300} loading="lazy" className="w-full max-w-[500px] mx-auto shadow-lg rounded-md" />
-              </div>
               <div className="each-slide-effect">
                 <Image src={'/bg3.png'} alt="" width={300} height={300} loading="lazy" className="w-full max-w-[500px] mx-auto shadow-lg rounded-md" />
               </div>
               <div className="each-slide-effect">
                 <Image src={'/bg4.png'} alt="" width={300} height={300} loading="lazy" className="w-full max-w-[500px] mx-auto shadow-lg rounded-md" />
+              </div>
+              <div className="each-slide-effect">  
+                <Image src={'/bg1.png'} alt="" width={300} height={300} loading="lazy" className="w-full max-w-[500px] mx-auto shadow-lg rounded-md" />
+              </div>
+              <div className="each-slide-effect">
+                <Image src={'/bg2.png'} alt="" width={300} height={300} loading="lazy" className="w-full max-w-[500px] mx-auto shadow-lg rounded-md" />
               </div>
             </Slide>
           </div>
